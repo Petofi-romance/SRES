@@ -1,4 +1,4 @@
-# in case you want to run this script independently for ssr-vet
+# in case you want to run this script independently for ssr-vles
 
 import argparse
 from openai import OpenAI
@@ -70,11 +70,11 @@ def arg_parser(model,prompt=prompt):
         help="Evaluation results secondary directory location",
     )
     parser.add_argument(
-        "--openai_api_key", type=str, default="sk-WRdWOz5tim8iHAtMKjYvLHPnCmtqpN0fq49dEf7xPAq8vxsv",
+        "--openai_api_key", type=str, default="key",
         help="Please set the api key here otherwise the environment key will be used"
     )
     parser.add_argument(
-        "--openai_api_base_url",type=str,default= "https://api.lkeap.cloud.tencent.com/v1",
+        "--openai_api_base_url",type=str,default= "url",
         help="OpenAI API base URL",
     )
     parser.add_argument(
@@ -87,10 +87,10 @@ def arg_parser(model,prompt=prompt):
         "--gpt_model_add", type=str, default="deepseek-ai/DeepSeek-V3", help="The model extracts specific scores from the analysis of the answer R1 model."
     )
     parser.add_argument(
-        "--gpt_model_add_key", type=str, default="sk-iyulfilqgwsqbhtmloosrvoftrugwkgajuvutygyyxosfoed", help="The model extracts specific scores from the analysis of the answer R1 model."
+        "--gpt_model_add_key", type=str, default="key", help="The model extracts specific scores from the analysis of the answer R1 model."
     )
     parser.add_argument(
-        "--gpt_model_add_url", type=str, default="https://api.siliconflow.com/v1", help="The model extracts specific scores from the analysis of the answer R1 model."
+        "--gpt_model_add_url", type=str, default="url", help="The model extracts specific scores from the analysis of the answer R1 model."
     )
     parser.add_argument(
         "--gpt_model_add_prompt", type=str, default=add_prompt, help="The model extracts specific scores from the analysis of the answer R1 model."
@@ -752,7 +752,7 @@ def cal_result(args,
 
 
 if __name__ == "__main__":
-    args = arg_parser(model="yi-vision-v2") #Enter the name of the model you want to test
+    args = arg_parser(model="model") #Enter the name of the model you want to test
     if args.openai_api_key:
         OPENAI_API_KEY = args.openai_api_key
     else:

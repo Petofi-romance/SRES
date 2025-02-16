@@ -19,7 +19,7 @@ client = OpenAI(
 )
 
 
-class Qwen:
+class Model:
     def __init__(self):
         self.model = model
 
@@ -115,7 +115,7 @@ if __name__ == "__main__":
     args = arg_parser()
 
 
-    model = Qwen()
+    model = Model()
 
     evaluate_on_ssrvet(args, model, 181)
 

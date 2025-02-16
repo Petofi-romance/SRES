@@ -11,11 +11,11 @@ from lib.utils_m2 import evaluate_on_ssrvet, encode_image
 # prepare the model
 
 
-model = 'glm-4v'
-savename = 'glm-4v'
+model = 'model'
+savename = 'model'
 client = OpenAI(
-    base_url='https://open.bigmodel.cn/api/paas/v4',
-    api_key='8dec6a66212848a9b53bc5626dee3e76.Yb3zQStzdJ88gLNJ'
+    base_url='url',
+    api_key='key'
 )
 
 

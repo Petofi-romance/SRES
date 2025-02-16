@@ -14,8 +14,8 @@ from lib.utils_m2 import evaluate_on_ssrvet, encode_image
 model = 'llama-3.2-90b-vision-instruct'
 savename = 'llama-3.2-90b-vision-instruct'
 client = OpenAI(
-    base_url='https://zzzzapi.com/v1',
-    api_key='sk-Djvy4OvpAAjW7n5AoVPyAxkG3CQTWejIKVyu4qiGhkCIf5KE'
+    base_url='url',
+    api_key='key'
 )
 
 

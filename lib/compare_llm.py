@@ -4,15 +4,11 @@ from retrying import retry
 from lib.meta_prompt import  argm_set
 
 client = OpenAI(
-    api_key="sk-xijnubdkudycfruohhdixknserokpyezkctbzrpgarcwaluz",
-    base_url="https://api.siliconflow.cn/v1"
+    api_key="key",
+    base_url="url"
 )
-model = "Qwen/Qwen2.5-14B-Instruct"
-# model = "deepseek-chat"
-# client = OpenAI(
-#     base_url='https://api.deepseek.com',
-#     api_key='sk-b6cf9fc8c6ff4714a7b4425261248e75'
-# )
+model = "deepseek-v3"
+
 class Duibi:
     def __init__(self):
         self.model = model

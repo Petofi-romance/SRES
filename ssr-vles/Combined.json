@@ -1,0 +1,18 @@
+{
+    "1": ["ocr","math"],
+    "2": ["ocr","space","math"],
+    "3": ["ocr","inference"],
+    "4": ["vi","ocr"],
+    "5": ["ocr","generation","common"],
+    "6": ["vi","math"],
+    "7": ["vi","common"],
+    "8": ["vi","inference"],
+    "9": ["vi","ocr","inference"],
+    "10": ["vi","motion"],
+    "11": ["background","motion"],
+    "12": ["background","inference"],
+    "13": ["background","common"],
+    "14": ["space","inference"],
+    "15": ["generation","common"]
+
+}

@@ -1,0 +1,3078 @@
+{
+    "v1_0": {
+        "imagename": "v1_0.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question": ["Please repeat the formula in a standardized way, using the ^ symbol for squares and no extra Spaces",
+                    "What is x in the equation?"],
+        "answer": ["(x+2)^2=9",
+        "1<AND>-5"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_1": {
+        "imagename": "v1_1.png",
+        "level":[2,1],
+        "degree":[0,1,2],
+        "question": ["Please repeat the formula in a standardized way, using the ^ symbol for squares and no extra Spaces",
+                    "What is the result of h?",["What is a in the equation?If the data is not available, answer 'nothing'.",
+                    "What is b in the equation?If the data is not available, answer 'nothing'.",
+                    "What is c in the equation?If the data is not available, answer 'nothing'."]],
+        "answer": ["-6(2x-1)=-102<AND>7h+5=-16","-3",[
+                            "nothing",
+                            "nothing",
+                            "nothing"
+        ]],
+       "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_2": {
+        "imagename": "v1_1.png",
+        "level":[2],
+        "degree":[1],
+        "question": "What is x and h in the equation",
+        "answer": "x=9 <AND> h=-3 ",
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_3": {
+        "imagename": "v1_3.png",
+        "level":[1,1],
+        "degree":[0,1,2],
+        "question": ["Please repeat the bottom right formula in a standardized way, using the ^ symbol for squares and no extra Spaces",
+        "What is the answer to the bottom right equation?",
+        ["The answer at the bottom right is what",
+        "What    is the answer   to thebottom right equation???",
+        "What is the answer    bottom   right"]],
+        "answer": ["3+4=","7<OR>=7",["7<OR>=7","7<OR>=7","7<OR>=7"]],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_4": {
+        "imagename": "v1_3.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question": ["Please repeat the second equation on the right in a standardized way, using the ^ symbol for squares and no extra Spaces",
+                        "What is the answer to the second equation on the right?"],
+        "answer": ["2+3=","5<OR>=5"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_5": {
+        "imagename": "v1_3.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["Are the answers in the lower right corner and the upper left corner the same? Please answer with yes or no."],
+        "answer": ["no"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_6": {
+        "imagename": "v1_6.png",
+        "level":[1],
+        "degree":[1,2],
+        "question": ["How many equations are on the way?",
+        ["Is the answer to formula 22 correct? Please answer 'yes' or 'no',when there is no formula Please answer 'nothing'",
+        "Whether the answer to the eighth row is correct?Please answer 'yes' or 'no',when there is no formula Please answer 'nothing'",
+        "Which formula answers 35? Please answer 'yes' or 'no',when there is no formula Please answer 'nothing' "]],
+        "answer": ["21",["nothing","nothing","nothing"]],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_7": {
+        "imagename": "v1_7.png",
+        "level":[2,3],
+        "degree":[0,1],
+        "question": ["Please describe the five formulas in the picture,using the ^ symbol for squares、using the * symbol for multiplication and no extra Spaces",
+                        "Find the pattern of how the \"X\" operator is redefined, and answer the given equation in the image."],
+        "answer": ["2*1*3=5<AND>4*5*2=14<AND>3*3*4=15<AND>5*3*2=11<AND>6*7*1=?","13<OR>=13"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_8": {
+        "imagename": "v1_7.png",
+        "level":[2],
+        "degree":[1],
+        "question": ["Ignoring the top equation, only show the answer to the bottom equation is calculated"],
+        "answer": ["13<OR>=13"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_9": {
+        "imagename": "v1_9.png",
+        "level":[2,1],
+        "degree":[0,1],
+        "question": ["Please describe the words in the white rectangle, please be careful not to output '温馨提示'",
+                        "If I want to fill up my car, when will I be able to enjoy the prices in the chart?"],
+        "answer": ["下轮油价调整时间\n6月14日24时","After 24:00 on 14 June"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_10": {
+        "imagename": "v1_9.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["What's the price difference between 95 gas and electricity?"],
+        "answer": ["10.16"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_11": {
+        "imagename": "v1_11.png",
+        "level":[2,1],
+        "degree":[0,1],
+        "question": ["Please tell me the prices of Taittinger and Moet dom perignon.Just output the price.",
+                    "What is the total price for a bottle of Taittinger and a bottle of Moet dom perignon shown in the image?"],
+        "answer": ["199.00<AND>238.99","438.98"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_12": {
+        "imagename": "v1_11.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["How much does it cost to buy the most expensive wine in the house?"],
+        "answer": ["279.99"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_13": {
+        "imagename": "v1_11.png",
+        "level":[2],
+        "degree":[1],
+        "question": ["What color is the most expensive wine?"],
+        "answer": ["golden <OR> gold foil"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_14": {
+        "imagename": "v1_14.png",
+        "level":[1],
+        "degree":[1,2],
+        "question": ["I am getting one Polpette and one Asrde impanate. How much should I pay in total?",[
+                    "I am getting one Polpette and one apple. How much should I pay in total? If this item is not available, answer 'nothing'.",
+                    "I am getting one apple. How much should I pay in total? If this item is not available, answer 'nothing'.",
+                    "I am getting one iphone. How much should I pay in total? "
+        ]],
+        "answer": ["3.00",["nothing<OR>There is no such product here","nothing<OR>There is no such product here","nothing<OR>There is no such product here"]],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_15": {
+        "imagename": "v1_14.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["How many items are there with prices?"],
+        "answer": ["10"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_16": {
+        "imagename": "v1_9.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["If I go to buy 30L of gas No. 98, how much will it cost?"],
+        "answer": ["366.3"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_17": {
+        "imagename": "v1_17.png",
+        "level":[1,3],
+        "degree":[0,1],
+        "question": ["Please judge from the scene of the players, what is the game, you can choose from these three: football, basketball, badminton","Please describe the scenario"],
+        "answer": ["football",
+                    "This image captures a women's soccer team lined up for a group photo before a match.  They are wearing matching uniforms, which consist of white jerseys with blue details, white shorts, and white socks.  The players are arranged in two rows;  the front row is seated on the ground, while the back row is standing.  Each player has a unique number on their jersey, ranging from 1 to 16.\nIn the center of the back row stands the goalkeeper, distinguishable by her different colored jersey, which is yellow with a blue pattern.  She is also wearing blue shorts that match the rest of the team's uniforms.  The players are on a grass field, and behind them is a stadium filled with spectators.  The atmosphere suggests that this is a professional or semi-professional soccer match, and the team is likely representing their country or a club.  The setting is outdoors during the daytime, and the weather appears to be clear."],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "generation"
+        ],
+        "imagesource": "web"
+    },
+    "v1_18": {
+        "imagename": "v1_17.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["This is a football match. How many players are there in the picture?"],
+        "answer": ["11"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_19": {
+        "imagename": "v1_17.png",
+        "level":[1],
+        "degree":[1,2],
+        "question": ["What's the number on the man in the yellow tracksuit?",
+        ["What's the number on the man in the red tracksuit?If this item is not available, answer 'nothing'.",
+        "What's the number on the man in the black tracksuit?If this item is not available, answer 'nothing'.",
+        "What's the number on the man in the green tracksuit?"]],
+        "answer": ["1",[
+            "There are no athletes in red here",
+            "There are no athletes in black here",
+            "There are no athletes in green here"]],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_20": {
+        "imagename": "v1_20.png",
+        "level":[3],
+        "degree":[1],
+        "question": ["How many kinds of drinks are there in the picture? Different packages of the same drink count as one."],
+        "answer": ["9"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_21": {
+        "imagename": "v1_20.png",
+        "level":[1],
+        "degree":[1,2],
+        "question": ["What's on the right side of the bottle of Coca-Cola?",[
+                    "What's on the top of a bottle of Coca-Cola?If this item is not available, answer 'nothing'.",
+                    "What's on top of the Pepsi bottle?If this item is not available, answer 'nothing'",
+                    "If this item is not available, answer 'nothing'"
+        ]],
+        "answer": ["Pepsi<OR>Bottled Pepsi",[
+            "nothing<OR>This content is not available here",
+            "nothing<OR>This content is not available here",
+            "nothing<OR>This content is not available here"]],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "common"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_22": {
+        "imagename": "v1_22.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["What is the spatial relationship between the man in gray and the man in black??"],
+        "answer": ["Behind him"],
+        "capability_vision": [
+            "motion"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_23": {
+        "imagename": "v1_22.png",
+        "level":[2,1],
+        "degree":[0,1],
+        "question": ["Describe what exercise the person in the picture is doing.","Please describe the content of this picture and don't describe a particular person's outfit"],
+        "answer": ["running","The image depicts a group of four individuals jogging across an open field with a natural landscape.   The terrain is grassy with some areas of taller, dried grass.   The sky is overcast with a mix of white and gray clouds, suggesting it might be a cool or temperate day.\nAll individuals appear to be middle-aged or older and are dressed in athletic wear suitable for outdoor exercise.   They are spaced out in a line, each person slightly behind and to the right of the one in front of them, suggesting a casual, non-competitive run.   The environment is rural or semi-rural, with no buildings or other people visible in the immediate vicinity."],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "generation"
+        ],
+        "imagesource": "web"
+    },
+    "v1_24": {
+        "imagename": "v1_24.png",
+        "level":[1],
+        "degree":[1],
+        "question": ["In what direction is the girl in the picture jumping?"],
+        "answer": ["Jump down<OR>The girl is jumping down"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_25": {
+        "imagename": "v1_25.png",
+        "level":[2],
+        "degree":[1],
+        "question": ["What is the number of the vacant parking space in the picture?"],
+        "answer": ["9<AND>10"],
+       "capability_vision": [
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_26":{
+        "imagename":"v1_25.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["Deduce the parking number of the white car from the other parking Spaces",[
+            "Parking number of the black car.If this item is not available, answer 'nothing'",
+            "Parking number of the red car.If this item is not available, answer 'nothing'",
+            "Parking number of the green car."
+            ]],
+        "answer":["8",[
+            "nothing<OR>There are no cars of this color",
+            "nothing<OR>There are no cars of this color",
+            "nothing<OR>There are no cars of this color"
+            ]],
+        "capability_vision": [
+
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_27":{
+        "imagename":"v1_27.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["If I want to buy two apricots, how much does it cost?",[
+            "What is the price of banana?If this item is not available, answer 'nothing'",
+            "What is the price of mung bean?If this item is not available, answer 'nothing'",
+            "What is the price of banana?"
+            ]],
+        "answer":["5.98",[
+            "nothing<OR>There is no such vegetable",
+            "nothing<OR>There is no such vegetable",
+            "nothing<OR>There is no such vegetable"
+            ]],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_28":{
+        "imagename":"v1_27.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What is the vegetable in the top right corner and how much is the price?"],
+        "answer":["Enjoya Peppers <AND> 1.99"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_29":{
+        "imagename":"v1_29.png",
+        "level":[1],
+        "degree":[1],
+        "question":["Who ranks highest in emails?"],
+        "answer":["JERMAINE PAUL"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_30":{
+        "imagename":"v1_29.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["The difference of metrics between the number one player and the number one player?",[
+                    "How many mails did the 11th ranked player send?If this item is not available, answer 'nothing'",
+                    "What is the name of the contestant whose mail is 80??If this item is not available, answer 'nothing'",
+                    "How many mails did the 11th ranked player send?"
+        ]],
+        "answer":["26<OR>26%",[
+            "nothing<OR>There is no such person",
+            "nothing<OR>There is no such person",
+            "nothing<OR>There is no such person"
+        ]],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_31":{
+        "imagename":"v1_31.png",
+        "level":[2,1],
+        "degree":[0,1,2],
+        "question":["Who is the number one runner in the picture?",
+                    "Please describe the content in this picture.",[
+                    "Where does player number one rank? If this item is not available, answer 'nothing'",
+                    "What's the number six player? If this item is not available, answer 'nothing'",
+                    "What's the number six player??"
+        ]],
+        "answer":["4",
+            "This image captures a dynamic moment during a track and field event.  Four athletes are in mid-stride, competing in a race on a red track.  They are wearing tank tops and shorts, which are typical for track events to allow for ease of movement.  The athletes are in close proximity to each other, indicating a competitive race.  Their arms are pumping, and their legs are in various positions of running, showcasing the intensity and focus required in such an event.  The background suggests an outdoor stadium setting, which is a common venue for track and field competitions. ",[
+            "nothing<OR>There is no such person",
+            "nothing<OR>There is no such person",
+            "nothing<OR>There is no such person"
+        ]],
+        "capability_vision": [
+            "space",
+            "background"
+        ],
+        "capability_language":[
+            "generation"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_32":{
+        "imagename":"v1_31.png",
+        "level":[2],
+        "degree":[0,2],
+        "question":["The serial number of the nearest player",[
+                    "the serial number of the nearest player?",
+                    "The serial number of thee nearest player",
+                    ":serial number of the nearest player"
+        ]],
+        "answer":["8",["8","8","8"]],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_33":{
+        "imagename":"v1_33.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["Please compare the color between the left and right apples?","Please describe the content in the picture.Don't describe what people in the background are wearing."],
+        "answer":["The apple on the left is green and the apple on the right is red.","The image features a close-up of two hands holding two apples against a white background. The hand on the left holds a green apple, which appears fresh with a smooth surface and a visible stem on top. The hand on the right holds a red apple, which has a vibrant color and a small green leaf attached near the stem, suggesting it may have been recently picked. Both apples are clean and have a shiny appearance, indicating they are likely washed. The person holding the apples is wearing a white sleeveless top, but only the arms and hands are visible in the frame. The focus is on the apples, which are centered and occupy the majority of the image space. There is no additional context provided about the setting or the person holding the apples."],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "generation"
+        ],
+        "imagesource": "web"
+    },
+    "v1_34":{
+        "imagename":"v1_33.png",
+        "level":[1],
+        "degree":[1],
+        "question":["Describe the spatial relationship between apples and people"],
+        "answer":["The apple is in front of the person."],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_35":{
+        "imagename":"v1_35.png",
+        "level":[1,2],
+        "degree":[1],
+        "question":["Which of these two racing cars is bigger in size,or same?"],
+        "answer":["same"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_36":{
+        "imagename":"v1_35.png",
+        "level":[1],
+        "degree":[0],
+        "question":["Which car is closer to us, number three or number four?"],
+        "answer":["four<OR>4<OR>Car number four is closer to us."],
+        "capability_vision": [
+            "space"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_37":{
+        "imagename":"v1_37.png",
+        "level":[1],
+        "degree":[1],
+        "question":["There are four planes of the same model from top to bottom, and that one is bigger in terms of size?"],
+        "answer":["same"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_38":{
+        "imagename":"v1_37.png",
+        "level":[2],
+        "degree":[1],
+        "question":["From top to bottom we define aircraft 1 through 4. The wing of the third plane was clearly missing rather than obscured by the body itself. Which plane had the same problem?"],
+        "answer":["1<OR>No.1<OR>Plane One had the same problem"],
+        "capability_vision": [
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_39":{
+        "imagename":"v1_39.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Is the person in the picture taller than the triangular building? Please answer yes or no."],
+        "answer":["no"],
+        "capability_vision": [
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_40":{
+        "imagename":"v1_39.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Judging from the background, was this photo taken during the day or at night?"],
+        "answer":["night"],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_41":{
+        "imagename":"v1_41.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Please answer what is the data in the picture, do not need to answer to describe the specific value and ranking",
+        "What's the average share of the top five cars?"],
+        "answer":["The annual average of carmakers' profit margins over the past 10 years","6.208<OR>6.208%"],
+        "capability_vision": [
+            "ocr",
+            "vi"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_42":{
+        "imagename":"v1_41.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What is the difference between the car with the highest proportion and the car with the lowest proportion?"],
+        "answer":["11.77<OR>11.77%"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_43":{
+        "imagename":"v1_43.png",
+        "level":[2],
+        "degree":[1,2],
+        "question":["Who got the third highest average score across all attributes in 2014?",[
+                    "Who got the third average score across all attributes in 2014?",
+                    "Who got the thirdhighest  average score across all attributes in 2014?",
+                    "Who got the third highest average score in 2014?"
+        ]],
+        "answer":["JnJ",[
+            "JnJ",
+            "JnJ",
+            "JnJ"
+        ]],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_44":{
+        "imagename":"v1_44.png",
+        "level":[1],
+        "degree":[1],
+        "question":["In 2002-03, what size family has the largest proportion?"],
+        "answer":["Marginal"],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_45":{
+        "imagename":"v1_45.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["Has the U.S. moved up the rankings in those three years?",[
+                    "Has the United States moved up the rankings in those three years?",
+                    "Has the U.S. moved up the rankings in those three years?",
+                    "Has the U.S. moved up the rankings ?"
+        ]],
+        "answer":["yes<OR>rise",["yes<OR>rise","yes<OR>rise","yes<OR>rise"]],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_46":{
+        "imagename":"v1_45.png",
+        "level":[2],
+        "degree":[1,2],
+        "question":["How many places did the U.S. change in the ranking from year one to year last?",[
+                    "how many places did the U.S. change in the ranking from year one to year last?",
+                    ":How many places did US change in ranking from year one to year last?",
+                    "HHHow many places did the   U.S.  change in the ranking from year one to year last~"
+        ]],
+        "answer":["10",["10","10","10"]],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_47":{
+        "imagename":"v1_45.png",
+        "level":[2],
+        "degree":[1],
+        "question":["How many places did the United States change in the ranking from year one to year last?"],
+        "answer":["10"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_48":{
+        "imagename":"v1_45.png",
+        "level":[2],
+        "degree":[1],
+        "question":["From 2011 to 2013, which country ranks highest??"],
+        "answer":["China"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_49":{
+        "imagename":"v1_49.png",
+        "level":[1,1],
+        "degree":[0,1,2],
+        "question":["What does the line chart on this graph show? Please do not list specific values.",
+                    "Which group of people is growing the most?",[
+                    "According to the graph, will the number of homeless people increase or decrease in 2003? If the data is not available, answer 'nothing'.",
+                    "According to the graph, will the number of homeless people increase or decrease in 2023? If the data is not available, answer 'nothing'.",
+                    "According to the graph, will the number of child increase or decrease in 2019? If the data is not available, answer 'nothing'."
+                    ]],
+        "answer":["Probability of Death among US Homeless, Housed, and Housed PoorPopulation in a Six-Month Period between 2016 and 20221",
+                    "Homeless",[
+                    "nothing",
+                    "nothing",
+                    "nothing"
+                    ]],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_50":{
+        "imagename":"v1_49.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["Which group of people is growing at gently rate?",[
+                    "what group of people is growing at gently rate?",
+                    "? group of people is growing at gently rate",
+                    "Wwhich group of people is growing att gently rate?"
+        ]],
+        "answer":["Housed",["Housed","Housed","Housed"]],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_51":{
+        "imagename":"v1_51.png",
+        "level":[3,1],
+        "degree":[0,1],
+        "question":["What does the line chart on this graph show? Please do not list specific values.",
+                    "In which year is the gap between Median Income and Median Rent/Income the smallest?"],
+        "answer":["This graphic depicts the median income and median rent/income for apartments in the United States",
+                    "2014"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_52":{
+        "imagename":"v1_51.png",
+        "level":[1],
+        "degree":[1],
+        "question":["Whether the median rental income of apartments in the United States is strictly increasing every year"],
+        "answer":["no"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_53":{
+        "imagename":"v1_51.png",
+        "level":[1],
+        "degree":[1],
+        "question":["Which year did US median rental income Grow the fastest?"],
+        "answer":["2020<OR>2022"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_54":{
+        "imagename":"v1_54.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["This graph describes what the data represents. Please do not describe specific figures.",
+                    "Who takes the second place in the picture?"],
+        "answer":["This graph depicts the market shares of Chinese B2C trading platforms.",
+                    "Jingdong(京东）<OR>Jingdong"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_55":{
+        "imagename":"v1_54.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Apart from others, what is the difference between the number one and the number one?"],
+        "answer":["59%<OR>59"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_56":{
+        "imagename":"v1_54.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What shape is the proportion of Jingdong, triangle, fan, or circle?"],
+        "answer":["fan"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_57":{
+        "imagename":"v1_57.png",
+        "level":[1,2],
+        "degree":[0,1,2],
+        "question":["This graph describes what the data represents. Please do not describe specific figures.Don't repeat questions.",
+                    "What percentage of the fastest-growing countries grew in 2016?",[
+                    "What was the value of transactions in Singapore in 2015?If the data is not available, answer 'nothing'.",
+                    "What was the value of transactions in Congo in 2015?If the data is not available, answer 'nothing'.",
+                    "What was the value of transactions in USAin 2019?If the data is not available, answer 'nothing'."
+                    ]],
+        "answer":["Top 10 countries for b2c e-commerce sales.",
+                    "75.8%<OR>75.8",[
+                    "nothing",
+                    "nothing",
+                    "nothing"
+                    ]],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_58":{
+        "imagename":"v1_57.png",
+        "level":[1],
+        "degree":[1],
+        "question":["What was the volume of transactions in USA in 2014?"],
+        "answer":["$530.7bn<OR>530.7bn"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_59":{
+        "imagename":"v1_57.png",
+        "level":[1],
+        "degree":[1],
+        "question":["Where did the data for this chart come from?"],
+        "answer":["National Associations and Ecommerce Foundation, 2016"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_60":{
+        "imagename":"v1_60.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What is the average monthly salary of Chinese factory men and women for a fixed period in 2021?"],
+        "answer":["23011"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_61":{
+        "imagename":"v1_60.png",
+        "level":[1],
+        "degree":[1],
+        "question":["What is the total salary of men and women on non-fixed period in the three regions 2021?"],
+        "answer":["18,836"],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_62":{
+        "imagename":"v1_62.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What is this?","How many dollars is the bill in the picture?"],
+        "answer":["U.S. dollar<OR>USD<OR>one dollar","one dollar <OR> one"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "Wikipedia"
+    },
+    "v1_63":{
+        "imagename":"v1_62.png",
+        "level":[3],
+        "degree":[1],
+        "question":["Who is the man in the picture?"],
+        "answer":["George Washington"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "Wikipedia"
+    },
+    "v1_64":{
+        "imagename":"v1_64.png",
+        "level":[3],
+        "degree":[1],
+        "question":["According to the current exchange rate, there are only two coins with the same face value in the chart. Who has the stronger purchasing power of a dollar or a yuan?"],
+        "answer":["a dollar"],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "math",
+            "common"
+        ],
+        "imagesource": "Wikipedia"
+    },
+    "v1_65":{
+        "imagename":"v1_64.png",
+        "level":[3],
+        "degree":[1],
+        "question":["Who is the head of the coin below? Please answer in Chinese."],
+        "answer":["毛泽东"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "Wikipedia"
+    },
+    "v1_66":{
+        "imagename":"v1_64.png",
+        "level":[3],
+        "degree":[1],
+        "question":["Which country are the two currencies from? Please use their full names."],
+        "answer":["America<AND>Chinese <OR> United States of America<AND>Chinese"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_67":{
+        "imagename":"v1_67.png",
+        "level":[2],
+        "degree":[1],
+        "question":["According to the current exchange rate, which of the top or bottom bill is worth more?"],
+        "answer":["bottom bill<OR>bottom"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_68":{
+        "imagename":"v1_67.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What's the face value of these two bills? Please answer using only numbers."],
+        "answer":["100"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_69":{
+        "imagename":"v1_69.png",
+        "level":[2],
+        "degree":[1],
+        "question":["How many people are there in the picture? Don't count reflections."],
+        "answer":["3"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_70":{
+        "imagename":"v1_69.png",
+        "level":[1],
+        "degree":[0],
+        "question":["Is the person in the picture walking, running or standing still?"],
+        "answer":["running"],
+        "capability_vision": [
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_71":{
+        "imagename":"v1_69.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What is the number plate in front of the athlete who stepped in the water? Please choose between the two players on the left."],
+        "answer":["432"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_72":{
+        "imagename":"v1_69.png",
+        "level":[3],
+        "degree":[1],
+        "question":["Was the weather good for the race in this picture? Please answer yes or no."],
+        "answer":["no"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            "common",
+            "inference"                
+        ],
+        "imagesource": "web"
+    },
+    "v1_73":{
+        "imagename":"v1_73.png",
+        "level":[3],
+        "degree":[0],
+        "question":["From one to five, which one is female?"],
+        "answer":["2"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_74":{
+        "imagename":"v1_73.png",
+        "level":[3],
+        "degree":[1],
+        "question":["In numbers one through six, which two pictures are of the same person? Answer format: If number one and number two are the same person, answer '1-2' instead of '2-1' or something else."],
+        "answer":["3-5"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "inference"                
+        ],
+        "imagesource": "web"
+    },
+    "v1_75":{
+        "imagename":"v1_73.png",
+        "level":[3],
+        "degree":[1],
+        "question":["One through six, which one is a cartoon?"],
+        "answer":["6"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "common"                
+        ],
+        "imagesource": "web"
+    },
+    "v1_76":{
+        "imagename":"v1_76.png",
+        "level":[2],
+        "degree":[1],
+        "question":["How many women are there in the picture?"],
+        "answer":["6"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "math"                
+        ],
+        "imagesource": "web"
+    },
+    "v1_77":{
+        "imagename":"v1_76.png",
+        "level":[2],
+        "degree":[1],
+        "question":["How many black people are there in the picture?"],
+        "answer":["2"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "math"                
+        ],
+        "imagesource": "web"
+    },
+    "v1_78":{
+        "imagename":"v1_76.png",
+        "level":[1],
+        "degree":[1],
+        "question":["How many people in the picture are wearing hats?"],
+        "answer":["2"],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "math"                
+        ],
+        "imagesource": "web"
+    },
+    "v1_79":{
+        "imagename":"v1_79.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What kind of exercise is the person in the picture doing?","Please introduce this picture"],
+        "answer":["play tennis<OR>tennis","There is a man playing tennis in the picture. He is wearing a yellow short-sleeved shirt, white hat, black shorts and black and white tennis shoes. He is swinging the tennis racket backwards."],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "generation"
+        ],
+        "imagesource": "web"
+    },
+    "v1_80":{
+        "imagename":"v1_79.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Where was this photo taken?"],
+        "answer":["Tennis court"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_81":{
+        "imagename":"v1_81.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Where was this photo taken?"],
+        "answer":["Soccer field"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_82":{
+        "imagename":"v1_81.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["What color is the shirt of the player on the left?",[
+                    "What color is number 15's shirt? If there is no player please answer 'nothing'",
+                    "What color is number 18's shirt? If there is no player please answer 'nothing'",
+                    "What is the size of the player in black? If there is no player please answer 'nothing'"
+        ]],
+        "answer":["red",[
+                    "nothing",
+                    "nothing",
+                    "nothing"
+        ]],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_83":{
+        "imagename":"v1_83.png",
+        "level":[2],
+        "degree":[0],
+        "question":["What exercise is the person in the picture doing?"],
+        "answer":["Flying saucer"],
+        "capability_vision": [
+            "vi",
+            "motion",
+            "background"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_84":{
+        "imagename":"v1_83.png",
+        "level":[3],
+        "degree":[0],
+        "question":["Are the people in the picture moving in the same direction?"],
+        "answer":["yes"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_85":{
+        "imagename":"v1_83.png",
+        "level":[3],
+        "degree":[0],
+        "question":["The man in the picture is lunging forward? Please select from the two options on the left and right."],
+        "answer":["right"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_86":{
+        "imagename":"v1_86.png",
+        "level":[2],
+        "degree":[1],
+        "question":["How many people are sitting in the picture?"],
+        "answer":["1"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_87":{
+        "imagename":"v1_86.png",
+        "level":[2],
+        "degree":[0],
+        "question":["Is the person sitting male or female?"],
+        "answer":["male"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_88":{
+        "imagename":"v1_86.png",
+        "level":[2],
+        "degree":[0],
+        "question":["Who looks older on the left or on the right?"],
+        "answer":["left<OR>Man on the left"],
+        "capability_vision": [
+            "vi",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_89":{
+        "imagename":"v1_89.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Who is happy on the left or the right?"],
+        "answer":["left"],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "common",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_90":{
+        "imagename":"v1_89.png",
+        "level":[2],
+        "degree":[1,2],
+        "question":["Are the two people in the picture the same person?",[
+                    "Is two people in the picture the same person?",
+                    "Are the two in the picture the same person?",
+                    ":: Are   the two   people in the picture the same person_?"
+        ]],
+        "answer":["yes",["yes","yes","yes"]],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_91":{
+        "imagename":"v1_89.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Are the people in the picture older or younger?"],
+        "answer":["older"],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "common",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_92":{
+        "imagename":"v1_92.png",
+        "level":[2],
+        "degree":[1,2],
+        "question":["How many people are laughing?",[
+                    "How many people are eating? If not, answer 'nothing'",
+                    "How many people are crying? If not, answer 'nothing'",
+                    "How many people are running? If not, answer 'nothing'"
+        ]],
+        "answer":["2 <OR> twe",["nothing","nothing","nothing"]],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_93":{
+        "imagename":"v1_92.png",
+        "level":[1],
+        "degree":[1],
+        "question":["The 'laughing man' refers to which photo from left to right?Numbers 1-4 from left to right, please output the serial number."],
+        "answer":["4<OR>fourth"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_94":{
+        "imagename":"v1_94.png",
+        "level":[1],
+        "degree":[0],
+        "question":["Is the person in purple really angry or calm?"],
+        "answer":["angry"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_95":{
+        "imagename":"v1_94.png",
+        "level":[1],
+        "degree":[0],
+        "question":["What number is crying?"],
+        "answer":["2"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_96":{
+        "imagename":"v1_94.png",
+        "level":[1],
+        "degree":[0],
+        "question":["Which number of people is sad?"],
+        "answer":["3"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_97":{
+        "imagename":"v1_97.png",
+        "level":[1],
+        "degree":[0],
+        "question":["Is the person in the picture happy?"],
+        "answer":["yes"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_98":{
+        "imagename":"v1_97.png",
+        "level":[1],
+        "degree":[0],
+        "question":["Are the people in the picture indoors or outdoors?"],
+        "answer":["outdoors"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_99":{
+        "imagename":"v1_99.png",
+        "level":[1],
+        "degree":[1],
+        "question":["What race is the person in the picture playing?"],
+        "answer":["Football match<OR>football"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_100":{
+        "imagename":"v1_99.png",
+        "level":[3],
+        "degree":[1],
+        "question":["How many athletes are there in the picture? Anything that is obscured or has only a small portion of it left is also counted."],
+        "answer":["5"],
+        "capability_vision": [
+            "vi",
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_101":{
+        "imagename":"v1_101.png",
+        "level":[3,1],
+        "degree":[0,1],
+        "question":["Describe what the person in the picture is wearing and what is he doing",
+                    "What exercise is the person in the picture doing?"],
+        "answer":["The man was wearing a red hardshell jacket, yellow pants, a blue-and-white hat and a black bag. The man is skiing.",
+                    "Ski resort"],
+        "capability_vision": [
+            "motion",
+            "background"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_102":{
+        "imagename":"v1_102.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["Where was the picture taken?",[
+                    "How many dogs are there in the picture?",
+                    "How many people are fighting in the picture?",
+                    "How many people are riding in the picture?"
+        ]],
+        "answer":["seaside <or> sand",["0","0","0"]],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_103":{
+        "imagename":"v1_102.png",
+        "level":[1],
+        "degree":[1],
+        "question":["When are the pictures likely to be taken? Please choose between morning and noon"],
+        "answer":["morning"],
+        "capability_vision": [
+            "background",
+            "space"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_104":{
+        "imagename":"v1_102.png",
+        "level":[1],
+        "degree":[0],
+        "question":["What exercise is the person in the picture doing?"],
+        "answer":["running<OR>run"],
+        "capability_vision": [
+            "background",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_105":{
+        "imagename":"v1_105.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Why are all the people in the picture dressed in white?",
+                    "What are the men and women in the center of the picture commonly called in this scenario?"],
+        "answer":["Because they're having a wedding.",
+                    "Bride and groom"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_106":{
+        "imagename":"v1_105.png",
+        "level":[1],
+        "degree":[1],
+        "question":["To determine the location of the shooting, choose from the following options: seaside, forest, grassland, desert."],
+        "answer":["seaside."],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_107":{
+        "imagename":"v1_107.png",
+        "level":[1],
+        "degree":[0],
+        "question":["To determine the location of the shooting, choose from the following options: seaside, forest, grassland, desert."],
+        "answer":["seaside."],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_108":{
+        "imagename":"v1_107.png",
+        "level":[1],
+        "degree":[1],
+        "question":["What activities are people taking part in here? Please choose between funeral, wedding, party, dinner."],
+        "answer":["wedding"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_109":{
+        "imagename":"v1_109.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What color are the most people wearing in the picture?",
+                    "What activities are people taking part in here? Please choose between funeral, wedding, party, dinner."],
+        "answer":["white","funeral"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_110":{
+        "imagename":"v1_109.png",
+        "level":[1],
+        "degree":[0,1],
+        "question":["What color are the most people wearing in the picture?",
+                    "What activities are people taking part in here? Please choose between funeral, wedding, party, dinner."],
+        "answer":["black","funeral"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_111":{
+        "imagename":"v1_109.png",
+        "level":[1],
+        "degree":[0,1],
+        "question":["What color are the most people wearing in the picture?",
+                    "What activities are people taking part in here? Please choose between funeral, wedding, party, dinner."],
+        "answer":["black","wedding"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_112":{
+        "imagename":"v1_111.png",
+        "level":[1,1],
+        "degree":[0,1,2],
+        "question":["What activities are people taking part in here? Please choose between funeral, wedding, party, dinner.",
+                    "Who is the man standing between the newlyweds?",[
+                    "What is the role of the police in this scene?If the object does not exist, answer 'nothing'",
+                    "What is the role of the teacher in this scene?If the object does not exist, answer 'nothing'",
+                    "What color is the second couple in the picture wearing?If the object does not exist, answer 'nothing'"
+                    ]],
+        "answer":["wedding","pastor <OR> witness",["nothing","nothing","nothing"]],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_113":{
+        "imagename":"v1_113.png",
+        "level":[1],
+        "degree":[0],
+        "question":["What activities are people taking part in here? Please choose between Award ceremonies, weddings, competitions, speeches"],
+        "answer":["Award ceremonies"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    },
+    "v1_114":{
+        "imagename":"v1_114.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What kind of activity is the picture? Please select from the following options: Award Ceremony, Dance Performance, Show, Play javascript:;",
+                    "Why are the people in the middle so happy?"],
+        "answer":["Award Ceremony","She won the championship"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "2024 Getty Images"
+    },
+    "v1_115":{
+        "imagename":"v1_114.png",
+        "level":[1],
+        "degree":[1],
+        "question":["What year is this photo from the Olympics?"],
+        "answer":["2024 Olympic Games <OR> Paris 2024 Olympic Games"],
+        "capability_vision": [
+            "background"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "2024 Getty Images"
+    },
+    "v1_116":{
+        "imagename":"v1_116.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the place in the picture?","It's six o 'clock in the afternoon. Why is there no one in the classroom?"],
+        "answer":["classroom <OR> school","Because the students are out of school"],
+        "capability_vision": [
+            "background",
+            "space"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_117":{
+        "imagename":"v1_117.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the place in the picture?","Is the man in blue a doctor? Please answer yes and no."],
+        "answer":["hospital","yes"],
+        "capability_vision": [
+            "background",
+            "space"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_118":{
+        "imagename":"v1_118.png",
+        "level":[1,1],
+        "degree":[0,1,2],
+        "question":["What is this drawing for?","Why is the second child smiling from left to right?",[
+                    "What does step seven entail?If this step is not available, answer 'nothing'.",
+                    "What does eightseven entail?If this step is not available, answer 'nothing'.",
+                    "That's where the peppers go?If this step is not available, answer 'nothing'."
+        ]],
+        "answer":["A group of children are eating in the cafeteria. A child is happily showing off his apple.","Because he got an apple.",[
+                    "nothing",
+                    "nothing",
+                    "nothing"
+        ]],
+        "capability_vision": [
+            "space"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_119":{
+        "imagename":"v1_118.png",
+        "level":[2],
+        "degree":[1],
+        "question":["Following the picture, what ingredients do you need to make bread?"],
+        "answer":["water<AND>flour<AND>yeast<AND>salt"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_120":{
+        "imagename":"v1_120.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What process does the picture describe?","What ingredients do you need to make a chocolate cake?"],
+        "answer":["chocolate cake","chocolate<AND>eggs<AND>sugar<AND>butter<AND>flour<AND>milk"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_121":{
+        "imagename":"v1_121.png",
+        "level":[1,2],
+        "degree":[0,1,2],
+        "question":["What process does the picture describe?","What's the next step after knead dough?",[
+                    "What does the picture describe?",
+                    "?What process? does the picture describe",
+                    "What process does the picture describe:"
+        ]],
+        "answer":["bread","put in warm place",["bread","bread","bread"]],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_122":{
+        "imagename":"v1_122.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["What process does the picture describe?","How much do we need to put in the fried rice in step 5?"],
+        "answer":["Omelet rice","about a small bowl size"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_123":{
+        "imagename":"v1_123.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What process does the picture describe?","How much flour does it take to make bread following the steps on the way?"],
+        "answer":["bread<OR> fast homemade bread","200g<OR>200g all purpose flour"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_124":{
+        "imagename":"v1_123.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What temperature does the bread need to be heated? Use similar representations lightly, such as the following:'200°-230°'"],
+        "answer":["230°-250°"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_125":{
+        "imagename":"v1_125.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["What assembly steps are described in the figure?","How many screws are needed to assemble a table?Please answer in numbers only."],
+        "answer":["Assemble table <OR> The redrawing describes the steps of assembling a table","8"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_126":{
+        "imagename":"v1_125.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What are the numbers of the table legs in the picture? Please answer in the following format. If there are four table legs numbered A to D, answer as follows: ABCD",
+                    "What is the number of steps when the legs are fixed to the table?"],
+        "answer":["BCDE","2"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_127":{
+        "imagename":"v1_127.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["What are the secondary components of Integrated Management Infomation System?","Who has the higher grade of construction or requirement?"],
+        "answer":["inter data center constructuion <AND> requirements <AND> system encode <AND> execution","requirement"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_128":{
+        "imagename":"v1_127.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["How many layers does the tree have?",[
+                    "How layers does the tree have?",
+                    " layers does the tree have?",
+                    "How many layers does the tree have:"
+        ]],
+        "answer":["4",["4","4","4"]],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_129":{
+        "imagename":"v1_129.png",
+        "level":[2,1],
+        "degree":[0,1],
+        "question":["What slice is this picture describing?","How many layers does the slice have, excluding water?"],
+        "answer":["earth","5"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_130":{
+        "imagename":"v1_129.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What slice is this picture describing?","What is the depth of the portion that is not scale?"],
+        "answer":["earth","3478km"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_131":{
+        "imagename":"v1_132.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["What is the electronic device in the picture?","According to the instructions in the picture, how many parts does the camera consist of?"],
+        "answer":["Camera","6"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_132":{
+        "imagename":"v1_132.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What are the subordinate units of the white house?","The political structure in the picture has an academic term, what is it?"],
+        "answer":["president","Separation of powers"],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_133":{
+        "imagename":"v1_133.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Answer according to the picture, how does the president control Congress?","In what year did the system in the picture come into effect?"],
+        "answer":["President can veto laws","The year 1787<OR>1787"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_134":{
+        "imagename":"v1_134.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What do the X and Y in the figure represent?","What is the academic name for this type of graph?"],
+        "answer":["DNA","Punnett square"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_135":{
+        "imagename":"v1_134.png",
+        "level":[2],
+        "degree":[1],
+        "question":["What proportion of the r gene on X will be in the final offspring? Answer in fractional form, such as: 1/2"],
+        "answer":["3/8"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_136":{
+        "imagename":"v1_134.png",
+        "level":[2],
+        "degree":[1],
+        "question":["How many generations of intact fruit fly DNA are there?"],
+        "answer":["3<OR>Three generations"],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "math"
+        ],
+        "imagesource": "web"
+    },
+    "v1_137":{
+        "imagename":"v1_137.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Please tell me the words in the picture.","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["Guess who's looking at memes instead of working",
+                "This image exemplifies a typical Internet meme, frequently employed to humorously depict an individual neglecting work responsibilities in favor of browsing entertaining images or memes. The caption 'Guess who's looking at memes instead of working' can be interpreted as a self-deprecating or lighthearted acknowledgment of engaging in non-work-related activities. It serves as a teasing commentary on the tendency to procrastinate by indulging in distractions such as viewing memes."],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_138":{
+        "imagename":"v1_138.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the text on the left of the automatic car in the picture?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["When you breath normally",
+                    "This meme uses a picture of two car shift rods to compare people's different states when breathing, humorously expressing a common psychological phenomenon: when we don't pay attention to something, we can do it naturally; But once we start paying too much attention, it can become awkward or unnatural.\n1. The top half: 'When you breathe normally' - shown here is the car's automatic shift lever, usually in the 'D' (driving) or P'' (stopping) position, which means that people breathe unconsciously and naturally, just like when driving, they don't need to think about how to change gears.\n 2. The second half: 'When you breathe and think about it' - shown here is the shift lever of a manual transmission car This represents that when you start to consciously think about your breath, it may become unnatural or tense, just as excessive focus on shifting gears while driving can lead to fluid or wrong movements."
+         ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_139":{
+        "imagename":"v1_139.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the text in the first line of the picture?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["I die",
+                    "The meme humorously addresses stereotypes about the differences in emotional expression between dogs and cats through exaggerated contrast: Dogs are often seen as loyal and emotional, while cats are seen as more independent and aloof: \n 1. ** Top left ** : 'When I die' - the picture shows a man looking very sad and crying, which represents the extreme sadness and loyalty your dog may show when you die. \n 2. ** Top right ** : 'My Cat' - the picture shows a man sitting at a bar looking somewhat aloof, saying 'Yes, very sad' and then 'Anyway'  in the picture below, which means that the cat may be showing a nonchalant attitude to your passing and may even quickly forget about it."
+        ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_140":{
+        "imagename":"v1_140.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the text in the picture?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["I wish this is possible",
+                    "The meme is a simple line drawing depicting a hand holding a pen whose inside is supposed to be a potion, but has been replaced; The book. The above text 'I wish this is possible' represents his attempt to inject knowledge into his brain through a syringe, expressing the author's hope that knowledge can be acquired quickly in this way."
+        ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_141":{
+        "imagename":"v1_141.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Please describe the text of the car section?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["My interent whem imsleeping",
+                    "The image is an Internet meme made up of two parts, with the upper and lower parts contrasting. \n The top half shows a very tired looking sloth working at a desk with a sandwich in his hand and a very sleepy and helpless expression. This section is captioned 'MY INTERNET WHEN I'm USING MY DEVICES'. \n The bottom half is an animated racing car that looks very excited and fast, with the caption 'MY INTERNET WHEN I'm SLEEPING'. /n This picture humorously expresses a common phenomenon by contrast: when people are using the Internet, the Internet speed is often slow, and when they do not need to use the Internet, the Internet speed becomes very fast. This is an exaggerated expression used to reflect people's dissatisfaction and ridicule over changes in Internet speed."
+        ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_142":{
+        "imagename":"v1_142.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Please describe the text of the picture?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["When you leave the store without buying anything",
+                    "The image, a humorous Internet meme, shows a green frog standing between supermarket shelves with an expression that looks somewhat embarrassed or uncomfortable. the text above the picture is' When you leave the store without buying anything '. \n The funny point of this picture is the comparison between the frog's expression and the situation. Usually, people buy something after going to the supermarket, but sometimes they may leave empty-handed for various reasons. The frog's expression seems to express this feeling of embarrassment or guilt, although it is only an exaggerated expression of humor. This meme is often used to make fun of people's hesitation in shopping or ultimately deciding not to buy anything."
+            ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web" 
+    },
+    "v1_143":{
+        "imagename":"v1_143.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the text in the top right corner?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["144p",
+                    "The image is a humorous comparison between two different resolutions of the same character, which appears to be the Hulk from the Marvel universe.   The top half of the image, labeled '144p' shows a very low-resolution version of the character, where details are blurry and pixelated, making it difficult to discern fine details.   The bottom half, labeled '4K' displays the character in high resolution, with clear, sharp details and vibrant colors, showcasing the character's features and the texture of his skin and costume."
+            ],
+        "capability_vision": [
+            "ocr",
+            "space"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_144":{
+        "imagename":"v1_144.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the text in the top corner?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["how school wifi us when ur in class",
+                    "The image is a humorous meme that uses two different depictions of the character Pikachu from the Pokémon series to illustrate a common frustration about school Wi-Fi.    The top half of the image, with the text 'how school wifi is when ur in class' shows a happy and well-made crocheted or knitted Pikachu, symbolizing the Wi-Fi working well when you don't need it, i.e., when you're in class and perhaps not using it as much. \n The bottom half, with the text 'how school wifi is when you need it' shows a distorted and seemingly damaged Pikachu, representing the Wi-Fi when you actually need it, such as when you're trying to study or complete an assignment outside of class. \n The punchline here is the contrast between the Wi-Fi's performance when it's not needed versus when it's needed, suggesting that it's often more reliable when it's not being used for its intended purpose.    This is a playful commentary on the unpredictability and sometimes frustrating nature of school Wi-Fi."
+            ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_145":{
+        "imagename":"v1_145.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the text in the top corner?","Can you give me a brief description of this picture? Note the punchline."],
+        "answer":["Sleeping 10+ hours in bed",
+                    "The image is a two-panel meme featuring the character SpongeBob SquarePants from the animated television series.In the top panel, SpongeBob is depicted with a weary expression, an open book on his lap, and a can of soda by his side, with the text 'Sleeping 10+ hours in bed.' This suggests that despite sleeping for an extended period in bed, SpongeBob still appears tired or unrefreshed.  \n In the bottom panel, SpongeBob is shown with a wide, energetic smile, holding a sandwich, and the text reads 'Sleeping 5 minutes on the couch. 'This implies that a short nap on the couch has left him feeling more refreshed and happy than a long sleep in bed.  \n The punchline of the meme is the contrast between the two scenarios, humorously suggesting that sometimes a short, unexpected rest can be more rejuvenating than a long, intended sleep.It plays on the common experience of feeling more awake and alert after a brief nap, especially if it's taken at an unconventional time or place."
+        ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_146":{
+        "imagename":"v1_146.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What are the two pieces of text in the picture?","Can you give me a brief description of this picture? Note the punchline.There is no need to describe what people are wearing."],
+        "answer":["Moost people my age <AND> Me",
+                    "This image shows the contrast between 'most of my peers' and 'me.' The above section depicts a man and a woman, with the boy proposing to the girl, representing most of his peers with rich lives. At the bottom is a child eating, which means that he is carefree and only wants to eat. It shows that he is helpless in his peers, there is no love object, and he can only put his energy into eating."
+        ],
+        "capability_vision": [
+            "ocr"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_147":{
+        "imagename":"v1_147.png",
+        "level":[1,3],
+        "degree":[0,1],
+        "question":["What is the text in the picture called the input field?","Can you give me a brief description of this picture? Note the punchline.There is no need to describe what people are wearing."],
+        "answer":["Type a message",
+                    "The image shows a text conversation where one person greets with 'Hello' and then introduces themselves as 'Andrew.'  The other person responds with 'Who are you?' and then 'And?'  The punchline is  homophony, where the person named Andrew tries to introduce himself, but the other person misunderstands and asks for more information, creating a humorous misunderstanding."
+        ],
+        "capability_vision": [
+            "ocr",
+            "vi"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_148":{
+        "imagename":"v1_148.png",
+        "level":[1,3],
+        "degree":[0,1],
+        "question":["Which part of the body is this X-ray?","Is there anything about this chest X-ray that shouldn't be here?"],
+        "answer":["thorax <OR> chest",
+                    "Patient's personal accessories were left on."
+        ],
+        "capability_vision": [
+            "ocr",
+            "vi"
+        ],
+        "capability_language":[
+            "generation",
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_149":{
+        "imagename":"v1_149.png",
+        "level":[1,3],
+        "degree":[0,1,2],
+        "question":["Which part of the body is this X-ray?","Question: What is the most obvious anomaly? A. Enlarged heart with pulmonary edema in both lower lungs B. Reduced interstitial light transmittance in both lower lungs with basal segment as C. Multiple lobar consolidation D. Metastatic calcification E. miliary nodules of the lung. Please substitute letters for the answer. For example: A",[
+                    "the body is this X-ray?",
+                    "Which part of the body is this X-ray...",
+                    "Which part of the body is this X-ray:"
+        ]],
+        "answer":["thorax <OR> chest",
+                    "B",
+            ["thorax <OR> chest",
+            "thorax <OR> chest",
+            "thorax <OR> chest"]
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_150":{
+        "imagename":"v1_150.png",
+        "level":[1,3],
+        "degree":[0,1,2],
+        "question":["Which part of the body is this CT?","Question: The most likely diagnosis? A. eosinophilic pneumonia B. general interstitial pneumonia/pulmonary fibrosis C. sarcoidosis D. Langerhans histiocytosis E. cryptogenic mechanized pneumonia. Please substitute letters for the answer. For example: A",[
+                    "Which of the body is this CT?",
+                    "Which part of the body: is this CT?",
+                    "Which part of the body is this CT:"
+        ]],
+        "answer":["thorax <OR> chest",
+                    "B",
+                    [
+                        "thorax <OR> chest",
+                        "thorax <OR> chest",
+                        "thorax <OR> chest"
+                    ]
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_151":{
+        "imagename":"v1_151.png",
+        "level":[1,3],
+        "degree":[0,1],
+        "question":["Which part of the body is this CT? Please choose from the following options: Lung, Kidney, Brain, stomach","Question: The most likely diagnosis? A. Multiple giant metanephric adenomas B. general interstitial pneumonia/pulmonary fibrosis C. sarcoidosis D. Langerhans histiocytosis E. Bilateral giant adrenal medullary lipoma. Please substitute letters for the answer. For example: A"],
+        "answer":["Kidney,",
+                    "A"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_152":{
+        "imagename":"v1_152.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Which part of the body is this CT?Please choose from the following options: Lung, Kidney, Brain, stomach","Question: The most likely diagnosis? A. Multiple giant metanephric adenomas B. Dural arteriovenous fistula C. sarcoidosis D. Langerhans histiocytosis E. Bilateral giant adrenal medullary lipoma. Please substitute letters for the answer. For example: A"],
+        "answer":["Kidney,",
+                    "E"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_153":{
+        "imagename":"v1_153.png",
+        "level":[1,2],
+        "degree":[0,1,2],
+        "question":["Which part of the body is this CT?Please choose from the following options: Lung, Kidney, Brain, stomach, heart","Question: The most likely diagnosis? A. Multiple giant metanephric adenomas B.Dural arteriovenous fistula C. sarcoidosis D. Langerhans histiocytosis E. Bilateral giant adrenal medullary lipoma. Please substitute letters for the answer. For example: A",[
+                    "Please choose from the following options: Lung, Kidney, Brain, stomach, heart.Which part of the body is this X-ray?",
+                    "Which part of the body is this CT?  Lung, Kidney, Brain, stomach, heart",
+                    "Which part of the body is this CT:Please choose from the following options: Lung, Kidney, Brain, stomach, heart"
+        ]],
+        "answer":["Brain",
+                    "E",
+                    ["Brain","Brain","Brain"]
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "capability_robu":[
+            "input"
+        ],
+        "imagesource": "web"
+    },
+    "v1_154":{
+        "imagename":"v1_154.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["Which part of the body is this CDFI? Please choose from the following options: Lung, Kidney, Brain, stomach, heart","Question: The most likely diagnosis? A. Multiple giant metanephric adenomas B.Dural arteriovenous fistula C. sarcoidosis D. Aortic dissection E. Bilateral giant adrenal medullary lipoma. Please substitute letters for the answer. For example: A"],
+        "answer":["heart",
+                    "D"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_155":{
+        "imagename":"v1_154.png",
+        "level":[1],
+        "degree":[1,2],
+        "question":["Is this picture X-rag,CT or CDFI?",[
+                    "How many CT are there?",
+                    "How many X-rag are there?",
+                    "How many apple are there?"
+        ]],
+        "answer":["CDFI",["0","0","0"]
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "web"
+    },
+    "v1_156":{
+        "imagename":"v1_156.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the device located in the bottom half of the picture?",
+                    "What is the maximum aperture of the lens currently installed in the device? Please select from the following options: 1, 1.8, 50, 3"],
+        "answer":["camera",
+                    "1.8"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_157":{
+        "imagename":"v1_156.png",
+        "level":[2,1],
+        "degree":[0,1],
+        "question":["What is the model of the camera?",
+                    "What's that over the camera?"],
+        "answer":["F3",
+                    "Flash lamp <OR> Flash light"
+        ],
+        "capability_vision": [
+            "vi",
+            "ocr"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_158":{
+        "imagename":"v1_158.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What is on the shoulder of the man to the right of the man in the white shirt? Please choose from the following options: camera, projector, movie machine, rocket launcher",
+                    "What is the model of the camera? Please choose from the following options:filming, photo shoots, fire drills, classes"],
+        "answer":["movie machine","filming"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common",
+            "generation"
+        ],
+        "imagesource": "web"
+    },
+    "v1_159":{
+        "imagename":"v1_159.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What was the driver driving? Please select from the following options: Automobile, high-speed rail, Aircraft, Tank",
+                    "How many drivers are there in the picture?"],
+        "answer":["high-speed rail","1"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "math",
+            "generation"
+        ],
+        "imagesource": "web"
+    },
+    "v1_160":{
+        "imagename":"v1_160.png",
+        "level":[1,3],
+        "degree":[0,1],
+        "question":["What model is this camera?",
+                    "What is the maximum aperture of the lens currently installed in the device? Please select from the following options: 1.7, 2.8, 30, 10"],
+        "answer":["DC 303k","1"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "self-control"
+    },
+    "v1_161":{
+        "imagename":"v1_161.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What's the name of the battle? Please answer in English.",
+                    "What is the terminus of this line? Please answer in English."],
+        "answer":["Mishima","Shin-Fuji"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_162":{
+        "imagename":"v1_162.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What are the bright balls in the picture?",
+                    "Are the clouds in the picture fake?"],
+        "answer":["Moon","yes <OR> It is fake"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_163":{
+        "imagename":"v1_163.png",
+        "level":[1,1],
+        "degree":[0,1],
+        "question":["What are the people doing under the trees? Please choose from the following options: Do homework, do experiments, play the piano, use the computer",
+                    "The tree in the picture is a kind of tree that often appears in Japanese anime. What kind of tree is it?"],
+        "answer":["play the piano","cherry tree"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "common"
+        ],
+        "imagesource": "web"
+    },
+    "v1_164":{
+        "imagename":"v1_164.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["Where is the scene in the picture? Please select from the following options: Train station, Restaurant, shop, Museum or others",
+                    "Is the figure in the picture male or female?"],
+        "answer":["Museum","female"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "common",
+            "inference"
+        ],
+        "imagesource": "self-control"
+    },
+    "v1_165":{
+        "imagename":"v1_165.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["What is the difference between Figure 1 and Figure 2?",
+                    "The later one in picture 1 and picture 2 is photoshopped, which one is it?"],
+        "answer":["In the first image, the person is holding a suitcase with her right hand.  In the second image, she is holding a basket with her right hand.All you have to do is say it's the photo without explaining why.",
+                    "picture 2"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "common",
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_166":{
+        "imagename":"v1_166.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["Where is the scene in the picture, please choose from the following options: tennis court, badminton court, baseball court, golf course.",
+                    "There are two photos, the one on the left is picture 1 and the one on the right is picture 2. It is judged that the photo has been photoshopped.All you have to do is say it's the photo without explaining why."],
+        "answer":["baseball court",
+                    "picture 2"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_167":{
+        "imagename":"v1_167.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["How many people are in the picture on the left?",
+                    "There are two photos, the one on the left is picture 1 and the one on the right is picture 2. It is judged that the photo has been photoshopped.All you have to do is say it's the photo without explaining why."],
+        "answer":["2 <OR> There are two people in the picture on the left",
+                    "picture 2"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_168":{
+        "imagename":"v1_168.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the white ball in the picture on the right? Please select from the following options: Tennis, Badminton, volleyball, Golf",
+                    "The picture on the left of these two pictures is Figure 1 and the picture on the right is Figure 2, which picture is obviously irrational? All you have to do is say it's the photo without explaining why."],
+        "answer":["Golf",
+                    "picture 2"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "common",
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_169":{
+        "imagename":"v1_169.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What animal is in the picture on the right?",
+                    "The picture on the left of these two pictures is Figure 1 and the picture on the right is Figure 2, which picture is obviously irrational? All you have to do is say it's the photo without explaining why."],
+        "answer":["geagull",
+                    "picture 1"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_170":{
+        "imagename":"v1_170.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["How many planes are there in the picture?You only need to answer the number and you don't need to answer anything else.",
+                    "Are the two planes heading the same way in three dimensions?"],
+        "answer":["2",
+                    "no"
+        ],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_171":{
+        "imagename":"v1_171.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["The sequence of the shooting time of this set of pictures is the same as the sequence number increase. Is there any change in the position of the lighter relative to the table in this picture?",
+                    "Is every picture in this group the same? Please note that camera shake is also taken into account."],
+        "answer":["no",
+                    "no"
+        ],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_172":{
+        "imagename":"v1_172.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["The sequence of the shooting time of this set of pictures is the same as the sequence number increase. Is the dog that appears many times in the picture the rescue dog or an ordinary dog?",
+                    "How many dogs appear in this set of photos? It is important to note that when the same dog appears in several photos, it should be treated as a separate instance."],
+        "answer":["rescue dog",
+                    "2"
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_173":{
+        "imagename":"v1_173.png",
+        "level":[1,2],
+        "degree":[0,1,2],
+        "question":["The sequence of the shooting time of this set of pictures is the same as the sequence number increase. What is the movement along the way? Please choose from the following options: football, running, skiing, paragliding",
+                    "In what stage is the person in red doing the exercise? Choose from the following options: Start, End, and in Progress",[
+                    "How many dogs are there in the fifth picture?",
+                    "How many dogs are there in the sixth picture?",
+                    "How many dogs are there in the seventh picture?"
+                    ]],
+        "answer":["paragliding",
+                    "End",
+                    ["0","0","0"]
+        ],
+        "capability_vision": [
+            "vi",
+            "background"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "capability_robu":[
+            "hallucination"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_174":{
+        "imagename":"v1_174.png",
+        "level":[2,2],
+        "degree":[0,1],
+        "question":["The sequence of the shooting time of this set of pictures is the same as the sequence number increase. What is the object being moved in the picture?",
+                    "Please select what happens in this set of graphs from the following option, you only need to answer A/B/C/D without answering the specific content of the option: A. The cup is brought from the bottom to the top B. The cup is brought from the top to the bottom C. The cup is brought from the left to the right D. The covers were carried from the inside out"],
+        "answer":["cup >OR> glass",
+                    "A"
+        ],
+        "capability_vision": [
+            "vi"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_175":{
+        "imagename":"v1_175.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What color is the floor in the picture?",
+                    "The sequence of the shooting time of this set of pictures is the same as the sequence number increase. What is the reason for this change in the items in the picture? Choose from the following options: The photographer's position has changed, the position of the item has changed, all has changed, and none has changed"],
+        "answer":["green",
+                    "the photographer's position has changed"
+        ],
+        "capability_vision": [
+            "vi",
+            "space",
+            "motion"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_176":{
+        "imagename":"v1_176.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["The sequence of the shooting time of this set of pictures is the same as the sequence number increase. What was the direction of the train? Please select from the following options: Front, back, left and right",
+                    "The removal of the hammer can be represented by what photograph? Please select from the following options:1-4, 5-8, 3-6, 1-8"],
+        "answer":["front",
+                    "5-8"
+        ],
+        "capability_vision": [
+            "vi",
+            "space",
+            "motion"
+        ],
+        "capability_language":[
+            "inference"
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_177":{
+        "imagename":"v1_177.png",
+        "level":[1],
+        "degree":[0],
+        "question":["The sequence of the shooting time of this set of pictures is the same as the sequence number increase. What was the direction of the train? Please select from the following options: Front, back, left and right"],
+        "answer":["front"],
+        "capability_vision": [
+            "vi",
+            "space",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_178":{
+        "imagename":"v1_177.png",
+        "level":[1],
+        "degree":[0],
+        "question":["The sequence of the shooting time of this set of pictures is the same as the sequence number increase. Which of these four pictures is the furthest from the photographer? Just answer the sequence number and do not output anything else."],
+        "answer":["4"],
+        "capability_vision": [
+            "vi",
+            "space",
+            "motion"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "MIBench"
+    },
+    "v1_179":{
+        "imagename":"v1_179.png",
+        "level":[1,2],
+        "degree":[0,1],
+        "question":["What is the motion in the second row and the third column?Please limit your answers to one word or less. ",
+                    "There are several movements in the figure, and the same movement is only counted if it occurs more than once"],
+        "answer":["skateboard",
+                    "7"
+        ],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            "math",
+            "inference"
+        ],
+        "imagesource": "web"
+    },
+    "v1_180":{
+        "imagename":"v1_180.png",
+        "level":[1],
+        "degree":[0],
+        "question":["The cat in the picture is on top, the white one or the brown one?",
+                    "There are several movements in the figure, and the same movement is only counted if it occurs more than once"],
+        "answer":["the white one <OR> white",
+                    "7"
+        ],
+        "capability_vision": [
+            "vi",
+            "space"
+        ],
+        "capability_language":[
+            ""
+        ],
+        "imagesource": "web"
+    }
+    
+}
+
+

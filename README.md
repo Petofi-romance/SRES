@@ -1,4 +1,4 @@
-# LMM Evaluation Framework
+# SRES Evaluation Framework
 
 ## Overview
 This project provides a framework for evaluating Large Multi-modal Models (LMMs) using a self-reflective comparison and scoring system. It includes scripts for running a test model, comparing outputs via a self-reflective mechanism, and scoring performance. Results and detailed logs are saved for analysis.
